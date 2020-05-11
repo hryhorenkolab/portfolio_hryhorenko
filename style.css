@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.logo{
+    display: flex;
+    color:rgb(226, 226,226);
+    text-transform: inherit;
+    letter-spacing: 3px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: space-around;
+  width:100%;
+}
+
+.navbar-links a{
+    display: flex;
+    color: rgb(226, 226,226);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+ 
+.container{
+    max-width: 100%;
+    margin:auto;
+}
+
+.row{
+    flex-wrap: wrap;
+}
+
+header {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    border-bottom: 1px solid #423940;
+    background-image: linear-gradient(to bottom right,#515FFF, #5ECAFF);
+ }
+ 
+
+header .row{
+   justify-content: space-between;
+   align-items: center;
+}
+
+header .brand-name a{
+    display: flex;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+    color: seashell;
+    margin-right: 60px;
+}
+
+
+header .navbar ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-right:10px;
+
+}
+header .navbar ul li{
+    justify-content: end;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+header .navbar ul li a{
+    display: flex;
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 72px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.home{
+    max-width: 100%;
+    background-image: url("main.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+
+
+.home .full-screen{
+ 
+    min-height: 100vh;;
+}
+
+.home .home-content{
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.home .home-content .block{
+    
+    flex: 0 0 100%;
+    max-width: 100%;
+    color: #ffffff;
+    margin-left: 0px;
+    margin-top: 400px;
+    text-align: center;
+
+}
+
+.home .home-content .block h4{
+    font-size: 15px;
+    font-weight: 400;
+}
+.home .home-content .block h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+.home .home-content .block h3{
+    font-size: 15px;
+    font-weight: 400;
+    margin:0;
+    padding:0;
+    line-height: 1.5;
+}
+
+.home .home-content .block .button{
+    padding-top: 20px;
+}
+
+.home .home-content .block .button a{
+    margin:10px;
+    border-radius: 4px;
+    color: #ffffff;
+    border: 1px solid #ffffff ;
+    padding: 12px 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all .5s ease;
+    background-color: transparent;
+}
+
+.home .home-content .block .button a:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+/*button2*/
+
+.home .home-content .block .button1{
+    padding-top: 20px;
+}
+
+.home .home-content .block .button1 a{
+    border-radius: 4px;
+    color: #ffffff;
+    border: 1px solid #ffffff ;
+    padding: 12px 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all .5s ease;
+    background-color: transparent;
+}
+
+.home .home-content .block .button1 a:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/*About Section*/
+.about-me{
+    padding: 100px 15px;
+}
+
+.about-me .section-title{
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.about-me .section-title h1{
+    display:inline-block;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-transform: 700px;
+    color:#000000;
+    position:relative;
+    margin:0;
+}
+
+.about-me .section-title h1:before{
+    content:'';
+    left: 0;
+    position:absolute;
+    height: 2px;
+    background-color: #febd01;
+    bottom:0px; 
+}
+.about-me .section-title p.small{
+    display: block;
+    font-size: 14px;
+    color: #423940;
+    font-weight: 400;
+}
+
+.about-me .container .row{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.about-me .image-me img{
+    display: flex;
+    flex: 0 0 33.3%;
+    max-width: 33.3%;
+}
+.about-me .section-title{
+    background: blue;
+    flex: 0 0 66.6%;
+    max-width: 66.6%;
+}
