@@ -1,0 +1,245 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #30312f;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #070707;
+  border-radius: 0;
+  border: 0;
+}
+
+#logo{
+  background: url('../images/logo.svg') no-repeat;
+  width: 160px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #7ef539;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px green;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+#nav-list a:hover {
+  background: rgb(24, 209, 55);
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#phone {
+  margin-top: 5px;
+}
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div { /* We Deliver */
+  color: #557c3e;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #13e700;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+@media(max-width:992px){
+
+}
+
+@media(max-width:991px){
+  
+}
+
+.home{
+  max-width: 100%;
+  background: url("main.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+
+}
+
+
+.home .full-screen{
+
+  min-height: 60vh;;
+}
+
+.home .home-content{
+  flex: 0 0 100%;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.home .home-content .block{
+  
+  flex: 0 0 100%;
+  max-width: 100%;
+  color: #ffffff;
+  margin-left: 0px;
+  margin-top: 100px;
+  text-align: center;
+
+}
+
+.home .home-content .block h4{
+  font-size: 15px;
+  font-weight: 400;
+}
+.home .home-content .block h1{
+  font-size: 30px;
+  font-weight: 600;
+}
+.home .home-content .block h3{
+  font-size: 15px;
+  font-weight: 400;
+  margin:0;
+  padding:0;
+  line-height: 1.5;
+}
+
+.home .home-content .block .button{
+  padding-top: 20px;
+}
+
+.home .home-content .block .button a{
+  margin:10px;
+  border-radius: 4px;
+  color: #ffffff;
+  border: 1px solid #ffffff ;
+  padding: 12px 25px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all .5s ease;
+  background-color: transparent;
+}
+
+.home .home-content .block .button a:hover{
+  background-color: #ffffff;
+  color: #000000;
+}
+/*button2*/
+
+.home .home-content .block .button1{
+  padding-top: 20px;
+}
+
+.home .home-content .block .button1 a{
+  border-radius: 4px;
+  color: #ffffff;
+  border: 1px solid #ffffff ;
+  padding: 12px 25px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all .5s ease;
+  background-color: transparent;
+}
+
+.home .home-content .block .button1 a:hover{
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/*About Section*/
+.about-me{
+  padding: 100px 15px;
+}
+
+.about-me .section-title{
+  flex: 0 0 100%;
+  max-width: 100%;
+  position: relative;
+}
+
+.about-me .section-title h1{
+  display:inline-block;
+  font-size: 35px;
+  text-transform: uppercase;
+  text-transform: 700px;
+  color:#000000;
+  position:relative;
+  margin:0;
+}
+
+.about-me .section-title h1:before{
+  content:'';
+  left: 0;
+  position:absolute;
+  height: 2px;
+  background-color: #febd01;
+  bottom:0px; 
+}
+.about-me .section-title p.small{
+  display: block;
+  font-size: 14px;
+  color: #423940;
+  font-weight: 400;
+}
+
+.about-me .container .row{
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.about-me .image-me img{
+  display: flex;
+  flex: 0 0 33.3%;
+  max-width: 33.3%;
+}
+.about-me .section-title{
+  background: blue;
+  flex: 0 0 66.6%;
+  max-width: 66.6%;
+}
+
+
