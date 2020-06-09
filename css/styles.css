@@ -131,8 +131,9 @@ body {
   width: 100%;
   margin-bottom: 15px;
   position: relative;
-  border: 2px solid white;
+  border: 5px solid white;
   overflow: hidden;
+
 }
 #methods:hover, #about-me:hover, #map-tile:hover {
   box-shadow: 0 5px 10px 5px #03f32b;
@@ -367,10 +368,6 @@ h3.menu-item-title {
   margin-bottom: 15px;
 }
 
-#menu-categories-title span{
-
-}
-
 
 
 
@@ -484,6 +481,13 @@ margin-bottom: 30px; /* between paragraphs */
     color: white;
     align-items: center;
   }
+
+    /* GitHub */
+    .fa-github {
+      background: white;
+      color: rgb(39, 37, 37);
+      align-items: center;
+    }
   
   /* Skype */
   .fa-skype {
