@@ -399,11 +399,14 @@ h3.menu-item-title {
   /* End Home page */
 
   /* about-me page */
-#oksana_story{
-line-height: 32px;   /* within paragraph */
-margin-bottom: 30px; /* between paragraphs */
+.img-center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border: solid 5px white;
+ 
 }
-
   /* end about-me page */
 
 
@@ -455,7 +458,7 @@ margin-bottom: 30px; /* between paragraphs */
 
 
   .panel-footer .fa{
-    margin: 10px;
+    margin: 5px;
     padding: 10px;
     font-size: 30px;
     width: 50px;
@@ -475,8 +478,8 @@ margin-bottom: 30px; /* between paragraphs */
   
   /* Set a specific color for each brand */
   
-  /* Facebook */
-  .fa-facebook {
+  /* LinkedIn */
+  .fa-linkedin {
     background: #3B5998;
     color: white;
     align-items: center;
@@ -539,4 +542,10 @@ margin-bottom: 30px; /* between paragraphs */
   }
 }
 
+.btn, .btn-secondary a{
+  background-color: white;
+}
 
+.btn, .btn-primary, .btn-lg  a{
+  background-color: turquoise;
+}
