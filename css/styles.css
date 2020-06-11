@@ -126,6 +126,56 @@ body {
   border: 2px solid white;
 }
 
+.card-footer a{
+  display: flexbox;
+  margin-top: 20px;
+    border-radius: 4px;
+    color: #ffffff;
+    border: 1px solid #ffffff ;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all .5s ease;
+    background-color: rgb(66, 66, 253);
+}
+
+.card-footer a:hover{
+  background-color: greenyellow;
+  color: #000;
+  font-weight: 1000;
+}
+
+.resume-container a{
+  display: flex;
+  width: 200px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+    border-radius: 4px;
+    color: #ffffff;
+    border: 1px solid #ffffff ;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all .5s ease;
+    background-color: rgb(66, 66, 253);
+    
+}
+
+.resume-container a:hover{
+  background-color: greenyellow;
+  color: #000;
+}
+
+
 #methods, #about-me, #map-tile {
   height: 250px;
   width: 100%;
@@ -133,6 +183,9 @@ body {
   position: relative;
   border: 5px solid white;
   overflow: hidden;
+  display: flexbox;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 #methods:hover, #about-me:hover, #map-tile:hover {
@@ -292,7 +345,7 @@ h3.menu-item-title {
     padding-top: 10px;
     height: 80px;
   }
-  .navbar-brand h1 { /* Restaurant name */
+  .navbar-brand h1 { 
     padding-top: 10px;
     font-size: 5vw; /* 1vw = 1% of viewport width */
   }
@@ -349,7 +402,7 @@ h3.menu-item-title {
     padding: 0;
   }
   #methods, #about-me {
-    width: 360px;
+    width: 350px;
     margin: 0 auto 15px;
   }
 
@@ -423,14 +476,15 @@ h3.menu-item-title {
 
   .card{
     max-width: 360px;
-    background-color: rgb(45, 45, 226);
+    background-color: rgb(255, 255, 255);
     margin: 10px 10px;
     overflow: hidden;
-    color: white;
+    color: rgb(0, 0, 0);
    font-weight: 600;
    text-align: center;
    border-radius:  5px 5px;
    padding: 0;
+   box-shadow: 0 10px 5px #03f32b;
 
 
   }
@@ -511,9 +565,9 @@ h3.menu-item-title {
 
 
   .card:hover{
-    background-color: tomato;
     border: solid 1px;
     border-color: white;
+    color: black;
   }
 
 
@@ -549,3 +603,16 @@ h3.menu-item-title {
 .btn, .btn-primary, .btn-lg  a{
   background-color: turquoise;
 }
+
+.myphoto, .img-center p{
+  margin-left: 10px;
+  margin-right: 10px;
+  justify-content: center;
+  text-align: justify;
+  font-weight: 600;
+}
+
+#margin-top{
+  margin-top: 10px;
+}
+
