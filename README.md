@@ -6,4 +6,6 @@ The portfolio web-site has the following features:
 	JavaScript,
 	Responsive design (media queries),
 	Bootstrap,
-	Netlify (Name Cheap).
+	Netlify (Name Cheap). 
+
+Git control.
